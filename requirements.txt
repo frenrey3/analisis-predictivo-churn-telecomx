@@ -1,0 +1,23 @@
+# ---- Requerimientos del Proyecto de Análisis Predictivo de Churn ----
+
+# Manipulación y Análisis de Datos
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualización de Datos
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Machine Learning y Preprocesamiento
+scikit-learn==1.5.0
+imbalanced-learn==0.12.3
+
+# Modelos Avanzados (Boosting)
+xgboost==2.0.3
+shap==0.45.1
+
+# Para la extracción de datos (del Proyecto 1)
+requests==2.32.3
+
+# Entorno de Notebook
+jupyter==1.0.0
