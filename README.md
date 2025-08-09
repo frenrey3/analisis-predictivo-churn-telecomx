@@ -108,3 +108,74 @@ graph LR
     C --> D[📊 Evaluación y Selección];
     D --> E[🧠 Interpretabilidad con SHAP];
     E --> F[🚀 Recomendaciones Estratégicas];
+Preprocesamiento: Las variables categóricas se transformaron mediante One-Hot Encoding y las numéricas se escalaron con StandardScaler.
+Manejo de Desbalance: Se aplicó SMOTE al conjunto de entrenamiento para crear un dataset balanceado, asegurando que el modelo no ignore a la clase minoritaria (clientes que cancelan).
+Entrenamiento y Evaluación: Se entrenaron y compararon los modelos LogisticRegression, RandomForestClassifier y HistGradientBoostingClassifier usando métricas como Precisión, Recall, F1-Score y ROC-AUC.
+Selección de Modelo: Se eligió el modelo con el mejor balance entre rendimiento técnico (ROC-AUC) y relevancia para el negocio (Recall).
+Interpretabilidad: Se utilizaron Permutation Importance y los gráficos de SHAP para entender el impacto y la dirección de cada variable en las predicciones del modelo.
+🎨 Visualizaciones Destacadas
+<div align="center">
+Importancia de Variables (SHAP Summary Plot)
+Este gráfico muestra las 20 variables más importantes y cómo impactan en la predicción de churn. Por ejemplo, una antigüedad (tenure) alta (rojo) reduce el riesgo de churn (SHAP value negativo).
+<img src="URL_A_TU_IMAGEN_SHAP" width="700"/>
+Comparación de Métricas de Modelos
+Visualización que compara el rendimiento de los diferentes modelos, justificando la selección de la Regresión Logística por su superioridad en Recall y F1-Score.
+<img src="URL_A_TU_IMAGEN_COMPARACION" width="700"/>
+</div>
+_**Nota:** Deberás reemplazar `URL_A_TU_IMAGEN_...` con las URLs de las imágenes guardadas desde tu notebook._
+💡 Recomendaciones Estratégicas
+Basado en el modelo predictivo, se proponen las siguientes acciones para reducir la tasa de evasión:
+Segmentación Proactiva por Riesgo: Utilizar el modelo para generar una puntuación de riesgo de churn para cada cliente. Segmentar a los clientes en "alto riesgo", "riesgo medio" y "bajo riesgo" para priorizar los esfuerzos de retención.
+Campañas de Retención Focalizadas: Para clientes de "alto riesgo" (ej. baja antigüedad, contrato mes a mes, fibra óptica), lanzar campañas proactivas con ofertas de migración a contratos anuales, descuentos en servicios de seguridad (onlinesecurity) o una revisión gratuita del servicio de fibra.
+Optimizar el Onboarding de Clientes Nuevos: Dado que una baja tenure es el principal predictor de churn, crear un programa de acompañamiento robusto para los primeros 3-6 meses de servicio.
+Revisar la Estrategia de Fibra Óptica: Realizar un análisis de causa raíz para entender la alta tasa de churn en este segmento. Investigar la calidad del servicio, la estructura de precios y la efectividad del soporte técnico asociado.
+🧪 Tecnologías Utilizadas
+<div align="center">
+![alt text](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+![alt text](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+![alt text](https://img.shields.io/badge/SHAP-0.41-blue.svg?style=for-the-badge)
+
+![alt text](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+</div>
+Categoría	Herramientas
+Entorno	Google Colab, Jupyter Notebook
+Datos	pandas, numpy
+Visualización	matplotlib, seaborn
+Machine Learning	scikit-learn, imblearn, xgboost, shap
+Despliegue	joblib (para guardar el modelo)
+📁 Estructura del Proyecto
+code
+Code
+.
+├── analisis_predictivo_churn_telecomx_entrega.ipynb    # Notebook principal con el análisis
+├── best_model_churn.pkl                                # Modelo entrenado y guardado
+├── README.md                                           # Este archivo
+└── requirements.txt                                    # Dependencias del proyecto
+🤝 Contribuciones
+Las contribuciones son siempre bienvenidas. Si tienes ideas para mejorar el análisis o añadir nuevas características, por favor sigue estos pasos:
+🍴 Haz un Fork del proyecto.
+🌿 Crea una nueva rama para tu característica (git checkout -b feature/mejora-increible).
+💾 Haz Commit de tus cambios (git commit -m 'Agregar una mejora increíble').
+📤 Haz Push a la rama (git push origin feature/mejora-increible).
+📋 Abre un Pull Request.
+👨‍💻 Autor
+<div align="center">
+Nelson Enrique Reyes Fabián
+Data Scientist & AI Developer
+![alt text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+
+![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+</div>
+📄 Licencia
+Este proyecto está bajo la Licencia MIT.
+<div align="center">
+<b>⭐ ¡Si este proyecto te fue útil, no olvides darle una estrella! ⭐</b>
+<br>
+<i>Desarrollado para la comunidad de Data Science.</i>
+</div>```
