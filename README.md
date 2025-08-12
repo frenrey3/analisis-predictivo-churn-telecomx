@@ -136,8 +136,6 @@ Visualización que compara el rendimiento de los diferentes modelos, justificand
 
 </div>
 
-_**Nota:** Deberás reemplazar `URL_A_TU_IMAGEN_...` con las URLs de las imágenes guardadas desde tu notebook._
-
 ---
 
 ## 💡 Recomendaciones Estratégicas
