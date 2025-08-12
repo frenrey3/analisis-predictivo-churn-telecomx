@@ -2,22 +2,22 @@
 
 # Manipulación y Análisis de Datos
 pandas==2.2.2
-numpy==1.26.4
+numpy==1.26.4  # ajustado para compatibilidad con Python 3.12 y pandas 2.2.2
 
 # Visualización de Datos
-matplotlib==3.9.0
+matplotlib==3.9.2
 seaborn==0.13.2
 
 # Machine Learning y Preprocesamiento
-scikit-learn==1.5.0
-imbalanced-learn==0.12.3
+scikit-learn==1.5.2  # fijado para compatibilidad estable con imbalanced-learn 0.13.x y Python 3.12
+imbalanced-learn==0.13.0
 
 # Modelos Avanzados (Boosting)
-xgboost==2.0.3
-shap==0.45.1
+xgboost==3.0.1
+shap==0.48.0
 
 # Para la extracción de datos (del Proyecto 1)
-requests==2.32.3
+requests==2.32.4
 
 # Entorno de Notebook
-jupyter==1.0.0
+jupyter==1.1.1

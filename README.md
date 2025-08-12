@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?style=for-the-badge&logo=jupyter)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24.2-F7931E.svg?style=for-the-badge&logo=scikit-learn)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.5.2-F7931E.svg?style=for-the-badge&logo=scikit-learn)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg?style=for-the-badge)
 
 _Un proyecto de Machine Learning de extremo a extremo para construir, evaluar e interpretar modelos predictivos que anticipan la evasión de clientes y guían las estrategias de retención._
@@ -57,14 +57,14 @@ El objetivo final no es solo predecir, sino **interpretar los resultados del mej
 3. **Ejecuta el análisis:**
     Abre y ejecuta el notebook principal.
     ```bash
-    jupyter notebook "analisis_predictivo_churn_telecomx_entrega.ipynb"
+    jupyter notebook "analisis-predictivo-churn-telecomx.ipynb"
     ```
 
 ### 🔗 Ejecución Directa en Colab
 
 No necesitas instalar nada. ¡Ejecuta el análisis completo directamente en tu navegador!
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frenrey3/Desafio-TelecomX-Churn-Analysis-Parte2/blob/main/analisis_predictivo_churn_telecomx_entrega.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frenrey3/Desafio-TelecomX-Churn-Analysis-Parte2/blob/main/analisis-predictivo-churn-telecomx.ipynb)
 _**Nota:** Reemplaza la URL con el enlace final a tu notebook en GitHub._
 
 ---
@@ -126,13 +126,13 @@ graph LR
 
 Este gráfico muestra las 20 variables más importantes y cómo impactan en la predicción de churn. Por ejemplo, una antigüedad (tenure) alta (rojo) reduce el riesgo de churn (SHAP value negativo).
 
-<img src="URL_A_TU_IMAGEN_SHAP" width="700"/>
+<img src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axclksoeezlm/b/bucket-20250803-1755/o/analisis-predictivo-churn-telecomx%2FImagenes%2Fshap_summary.png" width="450"/>
 
 **Comparación de Métricas de Modelos**
 
 Visualización que compara el rendimiento de los diferentes modelos, justificando la selección de la Regresión Logística por su superioridad en Recall y F1-Score.
 
-<img src="URL_A_TU_IMAGEN_COMPARACION" width="700"/>
+<img src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axclksoeezlm/b/bucket-20250803-1755/o/analisis-predictivo-churn-telecomx%2FImagenes%2Fmodel_comparison.png" width="450"/>
 
 </div>
 
@@ -177,7 +177,7 @@ Basado en el modelo predictivo, se proponen las siguientes acciones para reducir
 
 ```
 .
-├── analisis_predictivo_churn_telecomx_entrega.ipynb    # Notebook principal con el análisis
+├── analisis-predictivo-churn-telecomx.ipynb            # Notebook principal con el análisis
 ├── best_model_churn.pkl                                # Modelo entrenado y guardado
 ├── README.md                                           # Este archivo
 └── requirements.txt                                    # Dependencias del proyecto
