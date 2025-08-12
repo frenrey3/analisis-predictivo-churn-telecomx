@@ -201,7 +201,7 @@ Las contribuciones son siempre bienvenidas. Si tienes ideas para mejorar el aná
 Nelson Enrique Reyes Fabián  
 Data Scientist & AI Developer  
 <br>
-<a href="https://www.linkedin.com/in/nelsonenriquereyes/">
+<a href="www.linkedin.com/in/nelson-reyes80/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="https://github.com/frenrey3">
