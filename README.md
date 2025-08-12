@@ -126,13 +126,13 @@ graph LR
 
 Este gráfico muestra las 20 variables más importantes y cómo impactan en la predicción de churn. Por ejemplo, una antigüedad (tenure) alta (rojo) reduce el riesgo de churn (SHAP value negativo).
 
-<img src="URL_A_TU_IMAGEN_SHAP" width="700"/>
+<img src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axclksoeezlm/b/bucket-20250803-1755/o/analisis-predictivo-churn-telecomx%2FImagenes%2Fshap_summary.png" width="700"/>
 
 **Comparación de Métricas de Modelos**
 
 Visualización que compara el rendimiento de los diferentes modelos, justificando la selección de la Regresión Logística por su superioridad en Recall y F1-Score.
 
-<img src="URL_A_TU_IMAGEN_COMPARACION" width="700"/>
+<img src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axclksoeezlm/b/bucket-20250803-1755/o/analisis-predictivo-churn-telecomx%2FImagenes%2Fmodel_comparison.png" width="700"/>
 
 </div>
 
