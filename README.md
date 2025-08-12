@@ -64,8 +64,10 @@ El objetivo final no es solo predecir, sino **interpretar los resultados del mej
 
 No necesitas instalar nada. ¡Ejecuta el análisis completo directamente en tu navegador!
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/frenrey3/Desafio-TelecomX-Churn-Analysis-Parte2/blob/main/analisis-predictivo-churn-telecomx.ipynb](https://github.com/frenrey3/analisis-predictivo-churn-telecomx/blob/0762b1b44fd3bc87395dd5aacc63d1131982bba4/analisis-predictivo-churn-telecomx.ipynb)
-_**Nota:** Reemplaza la URL con el enlace final a tu notebook en GitHub._
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frenrey3/analisis-predictivo-churn-telecomx/blob/0762b1b44fd3bc87395dd5aacc63d1131982bba4/analisis-predictivo-churn-telecomx.ipynb)
+
+_**Nota:** Este enlace apunta al notebook correcto en GitHub para abrir en Colab._
+
 
 ---
 
